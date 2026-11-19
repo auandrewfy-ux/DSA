@@ -1,3 +1,6 @@
+numbers = [10, 20, 30, 20, 20]
+target = 20
+
 def count_occurrences(numbers, target):
     count = 0
 
@@ -5,4 +8,5 @@ def count_occurrences(numbers, target):
         if number == target:
             count += 1
 
-    return count
+    print(count)
+count_occurrences(numbers, target)

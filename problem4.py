@@ -7,3 +7,10 @@ def count_even(numbers):
             even_num = even_num + 1
     print(even_num)
 count_even(box)
+# def count_even(numbers):
+#     total_even = 0
+#     for i in numbers:
+#         if i % 2 == 0:
+#             total_even += 1
+#     print(total_even)
+# count_even(box)
